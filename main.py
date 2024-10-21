@@ -37,12 +37,12 @@ def download_button(button_name:str, file_path: Path, file_type: str) -> None:
 
 def main():
 
-    st.title("id类型的接数mapping_用于非SCI的接数工具")
+    st.title("id类型的接数mapping_用于非SCI")
 
     st.markdown(
         """
-        1)上传的xlsx里得自己配上系统字段,id不用配,参考模板
-        2)配多张就在一个sheet页里往下写就好,参考模板
+        1)上传的xlsx里得自己配上系统字段,id不用配
+        2)配多张就在一个sheet页里往下写就好
         """
     )
 
